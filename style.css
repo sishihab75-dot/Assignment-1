@@ -78,3 +78,32 @@ body {
 .hero-text span {
   color: #0af263;
 }
+.problem {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.sub {
+  color: #64748b;
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+}
+
+.card {
+  /* display: inline-block; */
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.card img {
+  height: 40px;
+  background-color: #f85554;
+  border-radius: 50%;
+  padding: 10px;
+}
