@@ -107,3 +107,38 @@ body {
   border-radius: 50%;
   padding: 10px;
 }
+.point-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.point-box p {
+  margin: 0;
+}
+
+.point-box img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.solution {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 60px 40px;
+}
+
+.solution-img {
+  display: flex;
+  width: 600px;
+  text-align: left;
+}
+
+.solution-text {
+  align-items: center;
+  justify-content: center;
+}
