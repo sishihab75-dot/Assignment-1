@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  color :#001931;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.link-parent {
+  display:flex;
+  gap: 35px;
+  list-style: none;
+  align-items: center;
+}
+.link-parent a {
+  text-decoration: none;
+}
+
+
+
+.logo {
+  height: 40px;
+}
+
+
+.btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btn:hover{  background-color: rgba(3, 186, 247, 0.686);
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);}
